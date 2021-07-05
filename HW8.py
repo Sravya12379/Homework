@@ -7,8 +7,8 @@ if len==4:
 else:
     while n<3:
        print("pin incorrect")
-       pincode = input("please enter valid pin")
-       len = len(pincode)
+       pincode1 = input("please enter valid pin")
+       len = len(pincode1)
        print(len)
        if len == 4:
            print("pin validated")
@@ -24,6 +24,10 @@ try:
 except:
     print("check balance amount")
     exit()
+finally:
+    print("ATM code was done")
+
+
 
 
 
